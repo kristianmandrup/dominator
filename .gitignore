@@ -1,5 +1,6 @@
-/dominator.iml
-/.idea
+*.iml
+*.log
+.idea
 pom.xml
 pom.xml.asc
 *jar
