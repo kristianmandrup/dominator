@@ -1,9 +1,10 @@
 (defproject wiki "0.2.0"
   :description "Virtual-Dom in ClojureScript."
   :url "https://github.com/dubiousdavid/dominator"
-  :dependencies [[org.clojure/clojure "1.7.0-beta2"]
-                 [org.clojure/clojurescript "0.0-3178"]
-                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.7.228"]
+                 [org.clojure/core.async "0.2.374"]
+                 [cljsjs/virtual-dom "2.1.1-0"]
                  [com.2tothe8th/dominator "0.4.0"]
                  [org.clojure/core.match "0.2.2"]]
   :node-dependencies [[source-map-support "0.2.8"]]
