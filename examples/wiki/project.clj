@@ -11,7 +11,7 @@
   :node-dependencies [[source-map-support "0.2.8"]]
   :plugins [[lein-cljsbuild "1.1.0"]
             [lein-npm "0.4.0"]]
-  :source-paths ["src" "target/classes"]
+  :source-paths ["src" "script" "target/classes"]
   :clean-targets ["target" "js"]
   :cljsbuild
   {:builds [{:id "wiki"
