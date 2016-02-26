@@ -10,7 +10,7 @@
                                                              org.clojure/clojurescript
                                                              org.clojure/core.async]]]
   :node-dependencies [[source-map-support "0.2.8"]]
-  :plugins [[lein-cljsbuild "1.0.5"]
+  :plugins [[lein-cljsbuild "1.1.0"]
             [lein-npm "0.4.0"]]
   :source-paths ["src" "target/classes"]
   :resource-paths ["externs"]
